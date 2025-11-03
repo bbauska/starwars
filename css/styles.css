@@ -6,8 +6,8 @@ body {
   height: 100%;
   font: 700 1em "News Cycle", sans-serif;
   letter-spacing: .15em;
-  color: #ff6;
-  background: #000;
+  color: #ff6;  /* light yellow */
+  background: #000;  /* black */
   overflow: hidden;
   margin: 0;
 }
@@ -26,14 +26,14 @@ body {
   cursor: pointer;
 }
 .starwars .start span {
-  color: #4bd5ee;
+  color: #4bd5ee;  /* soft cyan */
 }
 .starwars .intro {
   width: 15em;
   margin: 0 0 0 -7.5em;
   font-size: 200%;
   font-weight: 400;
-  color: #4bd5ee;
+  color: #4bd5ee;  /* soft cyan */
   opacity: 0;
   -webkit-animation: intro 6s ease-out 1s;
           animation: intro 6s ease-out 1s;
@@ -100,6 +100,7 @@ body {
     opacity: 0;
   }
 }
+
 @-webkit-keyframes logo {
   0% {
     width: 18em;
@@ -119,6 +120,7 @@ body {
     margin: -9em 0 0 -9em;
   }
 }
+
 @keyframes logo {
   0% {
     width: 18em;
@@ -138,10 +140,11 @@ body {
     margin: -9em 0 0 -9em;
   }
 }
+
 @-webkit-keyframes titles {
-  0% {
-    top: 100%;
-    opacity: 1;
+  0% { 
+    top: 100%; 
+    opacity: 1; 
   }
   95% {
     opacity: 1;
@@ -151,6 +154,7 @@ body {
     opacity: 0;
   }
 }
+
 @keyframes titles {
   0% {
     top: 100%;
